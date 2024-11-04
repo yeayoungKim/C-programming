@@ -9,12 +9,12 @@ int main(void){
     a = 187;
     //b = 100;
 
-    printf("당신의 키를 m로 변환하면:%lf 입니다.",sum(a));
+    printf("당신의 키를 m로 변환하면:%lf 입니다.\n",sum(a));
     
 }
 
 float sum(int x){
     float temp;
     temp = x / 100.0;
-    return temp;
+    return temp; 
 }

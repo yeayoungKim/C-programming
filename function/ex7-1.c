@@ -8,7 +8,7 @@ int main(void) //main 함수 시작
     int result; // 두 정수를 더한 결과(result)를 저장할 변수 
 
     result = sum(a,b);  //sum함수 호출
-    printf("result : %d\n", result);
+    printf("result : %d", result);
 
     return 0;
 
@@ -22,4 +22,4 @@ int sum(int x, int y) // sum 함수 정의 시작
 
     return temp; // temp의 값을 반환
 
-} // sum 함수의 끝
+} // sum 함수의 끝 
